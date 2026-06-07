@@ -9,7 +9,7 @@
 <p align="center">This repository contains my personal <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" alt="ARCH">  system configurations BTW</p>
 
 <p align="center">
-<img src="https://i.ibb.co/ZRLxS4Wf/photo-2025-07-29-16-18-39.jpg" alt="dotfiles" width="1920" height="1080" />
+<img src="https://i.ibb.co/PZ6BpVgD/screenshot-260607-154437.png" alt="dotfiles" width="1920" height="1080" />
 </p>
 
 <div align="center">
