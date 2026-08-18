@@ -1,0 +1,12 @@
+{
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4o-mini",
+    "window.menuBarVisibility": "compact",
+    "workbench.activityBar.location": "top",
+    "workbench.sideBar.location": "right",
+    "window.commandCenter": false,
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "catppuccin-macchiato",
+    "chat.viewSessions.orientation": "stacked",
+    "editor.minimap.enabled": false
+}
