@@ -23,7 +23,7 @@ Applications I use regularly, grouped by their role in my workflow.
 | Application | Package | Purpose |
 |---|---|---|
 | Obsidian | `obsidian` | Notes, course organization and knowledge management |
-| Brave | `brave-bin` | Web browsing, research and online resources |
+| LibreWolf | `librewolf` | Web browsing, research and online resources |
 | Evince | `evince` | PDF/document reading |
 | Papers | `papers` | PDF/document reading |
 | GNOME Calculator | `gnome-calculator` | Calculations |
