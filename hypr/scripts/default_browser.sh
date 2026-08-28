@@ -6,6 +6,7 @@ scripts_dir="$HOME/.config/hypr/scripts"
 [[ ! -f "$browser_cache" ]] && touch "$browser_cache"
 
 candidate_browsers=(
+    "librewolf"
     "brave"
     "firefox"
     "google-chrome-stable"

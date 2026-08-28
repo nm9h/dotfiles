@@ -41,7 +41,7 @@ open_browser() {
     local pywal_watcher="$HOME/.cache/wal/pywal-browser-watcher"
     if [[ "$default" == "" ]]; then
         "$scripts_dir/default_browser.sh"
-    elif [[ "$default" == "firefox" ]]; then
+    elif [[ "$default" == "firefox" || "$default" == "librewolf" || "$default" == "zen-browser" || "$default" == "zen" ]]; then
         "$default"
     else
         # Chromium-based browser — auto-load pywal theme + watcher extensions

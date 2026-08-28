@@ -16,7 +16,7 @@ open_site() {
     browser=$(grep "^default=" "$browser_cache" 2>/dev/null | head -n1 | awk -F'=' '{print $2}')
     [[ -z "$browser" ]] && browser=$(grep -v "^default=" "$browser_cache" 2>/dev/null | head -n1)
 
-    if [[ "$browser" == "firefox" || "$browser" == "zen-browser" || "$browser" == "zen" ]]; then
+    if [[ "$browser" == "firefox" || "$browser" == "librewolf" || "$browser" == "zen-browser" || "$browser" == "zen" ]]; then
         "$browser" --new-window "$url" &
     elif [[ -n "$browser" ]] && command -v "$browser" &>/dev/null; then
         "$browser" --app="$url" &
