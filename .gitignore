@@ -1,0 +1,50 @@
+# ==============================================================================
+# Workstation Repository - Git Ignore
+# ==============================================================================
+
+# Runtime & Cache files
+.cache/
+*.cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Shell histories and runtime state
+.bash_history
+.zsh_history
+*.history
+.viminfo
+.lesshst
+.xsession-errors*
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+.dotfiles_backup/
+
+# Secrets, Keys, and Sensitive Data
+*.pem
+*.key
+*.pub
+id_rsa*
+id_ed25519*
+*.kdbx
+credentials
+credentials.json
+.env
+.env.*
+*.secret
+
+# Package manager & IDE temporary caches
+node_modules/
+.npm/
+.cargo/
+.venv/
+env/
+.vscode-shared/
