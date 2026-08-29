@@ -28,6 +28,10 @@
 
 ```text
 workstation/
+├── AGY/                      # Antigravity agent documentation & sync workflows
+│   ├── AGENTS.md             # Active workstation rules & sync policies
+│   ├── README.md             # Assistant overview & documentation
+│   └── WORKFLOW.md           # Operational lifecycle & commit guide
 ├── configs/                  # Modular application configurations
 │   ├── btop/                 # System resource monitor config
 │   ├── fastfetch/            # System information fetcher presets
