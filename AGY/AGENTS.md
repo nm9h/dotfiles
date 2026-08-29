@@ -32,7 +32,7 @@ Whenever a configuration change, fix, or enhancement is completed on this machin
    - Validate syntax and ensure that relative symlinks or portable paths (e.g. `$HOME`) are preserved.
 
 4. **Package Inventory Maintenance**:
-   - When new software or tools are installed or removed, the package inventories in [`packages/`](packages/) (`pacman.txt`, `aur.txt`, `vscode-extensions.txt`) are updated.
+   - When new software or tools are installed or removed, the package inventories in [`packages/`](../packages/) (`pacman.txt`, `aur.txt`, `vscode-extensions.txt`) are updated.
 
 ---
 
@@ -40,13 +40,13 @@ Whenever a configuration change, fix, or enhancement is completed on this machin
 
 Antigravity enforces strict data hygiene at all times:
 - **Zero Secrets**: Passwords, API tokens, SSH private keys (`id_rsa`, `id_ed25519`), certificates, or authorization credentials are never committed.
-- **No Volatile Caches or History**: Caches (`.cache/`), browser data/profiles, runtime states, bash/zsh history files, and logs are excluded via [`.gitignore`](.gitignore).
+- **No Volatile Caches or History**: Caches (`.cache/`), browser data/profiles, runtime states, bash/zsh history files, and logs are excluded via [`.gitignore`](../.gitignore).
 - **Non-Destructive Operations**: User files and unrelated branches are never overwritten without explicit instructions.
 
 ---
 
 ## 🛠️ Management Tools & Helper Scripts
 
-- [`scripts/install.sh`](scripts/install.sh) — End-to-end setup script for fresh Arch Linux installations.
-- [`scripts/link-configs.sh`](scripts/link-configs.sh) — Safe symlinker that maps repository configs to `~/.config/` with automatic timestamps for backups.
-- [`scripts/backup.sh`](scripts/backup.sh) — Syncs active system packages and configurations back into the repository.
+- [`scripts/install.sh`](../scripts/install.sh) — End-to-end setup script for fresh Arch Linux installations.
+- [`scripts/link-configs.sh`](../scripts/link-configs.sh) — Safe symlinker that maps repository configs to `~/.config/` with automatic timestamps for backups.
+- [`scripts/backup.sh`](../scripts/backup.sh) — Syncs active system packages and configurations back into the repository.
