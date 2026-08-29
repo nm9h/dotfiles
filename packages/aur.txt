@@ -1,0 +1,9 @@
+crudini
+grimblast-git
+localsend-bin
+pyprland
+qt6ct-kde
+tty-clock
+visual-studio-code-bin
+wlogout
+yay
